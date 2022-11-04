@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+	font-family: 'Righteous', cursive;
+
+#carousel-tur .carousel-inner img {
+	width: 100%;
+}
+header div img {
+	width: 150px;
+	height: 150px;
+}
+body{
+
+	background-image: url(img/fondo.jpg);
+
+}
+section h3{
+	widht:;
+}
+footer{
+	color: #FFFFFF;
+}
+.social{
+	position: fixed;
+	left: 0;
+	top: 200px;
+	z-index: 2000;
+}
+.social ul{
+	list-style: none;
+}
+.social ul li a{
+	display: inline-block;
+	color: #fff;
+	background: #000;
+	padding: 10px 15px;
+	text-decoration: none;
+	-transition: all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition: all 500ms ease;
+
+}
+.social ul li .icon-facebook{background:#3b5998 ;}
+.social ul li .icon-tumblr{background: #00abf0;}
+.social ul li .icon-google-plus{background: #d95232;}
+.social ul li .icon-instagram{background: #ae181f;}
+.social ul li .icon-whatsapp{background: #27C40D;}
+
+.social ul li a:hover{
+	padding: 10px 30px;
+	background: #000;
+}
